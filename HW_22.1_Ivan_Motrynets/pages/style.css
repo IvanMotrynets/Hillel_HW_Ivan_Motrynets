@@ -1,0 +1,86 @@
+#link__logo{
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	padding: 0.3rem 0.6rem;
+	border-radius: 4px;
+}
+#linl__logo:hover{
+	color: #f39c12;
+	background: #27ae60;
+	text-decoration: underline;
+}
+#link{
+	color: #2c3e50;
+	text-decoration: none;
+	font-weight: bold;
+}
+#link:hover{
+	color: #f39c12;
+	text-decoration: underline;
+}
+.body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #fafafa;
+	color: #333;
+	line-height: 1.6;
+}
+.logo{
+	height: 50px;
+	vertical-align: middle;
+}
+.header{
+	background: #2c3e50;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 2rem;
+}
+.header__link{
+	color: white;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.nav_list{
+	list-style: none;
+	display: flex;
+	gap: 1.5rem;
+	margin: 0;
+	padding: 0;
+}
+.body__main{
+	max-width: 1000px;
+	margin: 2rem auto;
+	padding: 0 1rem;
+}
+.body__header{
+	margin-bottom: 2rem;
+	text-align: center;
+}
+.body__middle{
+	margin-bottom: 2rem;
+	padding: 1rem;
+	background: white;
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.footer{
+	background: #2c3e50;
+	color: white;
+	text-align: center;
+	padding: 1rem;
+}
+.footer__img{
+	height: 40px;
+	margin-bottom: 0.5rem;
+}
+.contact{
+	margin-top: 1rem;
+	font-size: 0.9rem;
+	color: #2c3e50;
+}
